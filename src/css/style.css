@@ -1,20 +1,17 @@
-.game-container {
-  border: 1px solid silver;
-  width: 800px;
-  height: 800px;
+.game-container {  
+  width: 400px;
+  height: 400px;  
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  box-sizing: border-box;
 }
 
+
+
 .cell {
-  border: 1px solid silver;
-  width: 25%;
-  height: 25%;
-  box-sizing: border-box;
-  position: relative; 
-  padding: 7.5px 7.5px;
+ width: 25%;
+    height: 25%;
+    box-sizing: border-box;
+    border: 1px solid black;
 }
 
 .goblin {
@@ -26,3 +23,8 @@
   background-repeat: no-repeat; 
   background-position: center; 
 }
+
+img {
+    width: 100%;
+}
+
